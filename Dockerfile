@@ -2,6 +2,7 @@ FROM nvidia/cuda:10.0-base-ubuntu18.04
 
 RUN apt-get update &&  apt-get install -y --no-install-recommends \
     wget \
+    rsync \
     \
     python3=3.6.7-1~18.04 \
     python3-pip=9.0.1-2.3~ubuntu1.18.04.1 \
